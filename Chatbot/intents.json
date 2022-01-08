@@ -1,0 +1,93 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "What do you do?",
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "How can I pay?",
+          "What are the payment methods?",
+          "How can I purchase this?",
+          "How can I buy this?",
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with PhonePe?",
+          "Can I pay with Paytm?",
+          "Can I pay with Google Pay?",
+          "Do you take cash only?",
+          "Is COD available?",
+          "Is Cash on Delivery available?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard, Paytm, PhonePe, Google Pay and COD",
+          "We accept most major credit cards, debit cards, Paytm, PhonePe, Google Pay and COD"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
